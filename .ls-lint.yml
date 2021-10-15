@@ -1,0 +1,23 @@
+ls:
+    .dir: camelCase
+    .js: camelCase
+    .json: camelCase
+    .ts: camelCase
+    .tsx: camelCase
+    .test.ts: camelCase
+    
+ignore:
+    - .git
+    - .github
+    - .idea
+    - .ls-lint.yml
+    - .eslintrc.js
+    - babel.config.js
+    - jest.config.js
+    - .nyc_output
+    - .husky
+    - node_modules
+    - docker
+    - dist
+    - "@types"
+    - coverage
